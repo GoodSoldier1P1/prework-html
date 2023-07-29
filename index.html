@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    
+</head>
+<body>
+    <nav class="topnav">
+        <ul>
+            <li><strong>Daniel's Portfolio</strong></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="past.html">Past</a></li>
+            <li><a href="present.html">Present</a></li>
+            <li><a href="future.html">Future</a></li>
+        </ul>
+    </nav>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size: 50px;">Daniel Amyx</h1>
+            <p>*Future* Software Engineer</p>
+        </div>
+    </div>
+    <main>
+        <div>
+            <article>
+                <h1 id="past"><a href="past.html">Past</a></h1>
+                <p><strong><small>I was lost for so long. I was forgotten, worst of all I was scared.</small></strong></p>
+                <figure style="text-align: center;">
+                <img src="images/FirstLogo.jpg" alt="My First Logo" width="320px" height="auto">
+                <figcaption>I forgot how bad this logo was.</figcaption>
+               <!--Create a CSS to make this redirect to the Past-->
+            </figure>
+            </article>
+            
+            <article>
+                <h1 id="present"><a href="present.html">Present</a></h1>
+                <p><strong><small> I may be broken, but I know who I am and what I can do.</small></strong></p>
+                <figure style="text-align: center;">
+                    <img src="images/Us.jpg" alt="My wife, Middle Son, and Me" width="320px" height="aut0">
+                    <figcaption><em>It's odd looking back.</em></figcaption>
+                </figure>
+                <!--Create a CSS to make this redirect to the Present-->
+            </article>
+
+            <article>
+                <h1 id="future"><a href="future.html">Future</a></h1>
+                <p><strong><small>We can't see the future, but we can turn it into something that will make us proud.</small></strong></p>
+                <figure style="text-align: center;">
+                    <img src="images/Isaac.jpg" alt="My Wife while pregnant with our son" width="320px" height="auto">
+                    <figcaption>This child is a Shining Star in the midst of darkness.</figcaption>
+                </figure>
+                <!--Create a CSS to make this redirect to the Future-->
+        </div>
+    <div>
+        <article>
+            <div>
+                <h2><a href="index.html" style="text-decoration: none;">Daniel Amyx</a></h2>
+                <figure style="text-align: center;">
+                <img src="images/Me.jpg" alt="Myself at Theodore Roosevelt National Park" width="320px" height="auto">
+                <figcaption>Pretty sure this is where I saw the gophers. They are quite weird.</figcaption>
+                </figure>
+                
+                <article>
+                    <h1 style="font-size: 25px;">Contact</h1>
+                    <p><strong><small>Here's how to contact me if you have any questions or requests.</small></strong>
+                    <br>
+                    <ul class="bottomnav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="https://discord.gg/nzcXAdq" target="_blank">Discord</a></li>
+                        <li><a href="https://www.facebook.com/goodsoldier1p1" target="_blank">Facebook</a></li>
+                        <li><a href="mailto:danielamyx859@gmail.com" target="_blank">danielamyx859@gmail.com</a></li>
+                    </ul>
+                    <form action="mailto:danielamyx859@gmail.com" method="post">
+                        <label for="name"></label><strong>Name</strong></label><br>
+                        <input type="text" id="name" placeholder="Your Name">
+                        <br>
+                        <label for="body"><strong>Message</strong></label>
+                        <br>
+                        <textarea id="body" placeholder="Your Message..." rows="5" cols="50"></textarea>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </article>
+            </div>
+        </article>
+    </div>
+    </main>
+    <footer>
+        <hr>
+        <div>
+            &copy Daniel Amyx 2023
+        </div>
+    </footer>
+
+</body>
+</html>
