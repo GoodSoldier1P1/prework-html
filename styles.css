@@ -5,12 +5,13 @@ body, html {
     height: 100%;
     margin: 0px;
 }
-body, main{
+html {
     /* background-color: cadetblue; */
     background-image: url(images/Cross.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
+    background-attachment: fixed;
 }
 
 h1{
@@ -20,13 +21,13 @@ h1{
     padding: 3px;
     margin: 0 40%;
 }
-.hero-image {
-   /* background-image: url(images/sky.jpg);
+/* .hero-image {
+    background-image: url(images/sky.jpg);
     height: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; */
-}
+    background-position: center; 
+} */
 .hero-text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -46,7 +47,7 @@ p{
     text-align: center;
     background-color: cornflowerblue;
     padding: 3px;
-    margin: 0px 250px;
+    margin: 0px 15%;
 }
 form {
     text-align: center;
@@ -75,6 +76,10 @@ ul {
 .bottomnav {
     overflow: hidden;
     background-color: lightskyblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .bottomnav a:hover {
     background-color: lightgray;
@@ -86,7 +91,7 @@ ul {
     display: block;
     color: blue;
     text-align: center;
-    padding: 50px 50px;
+    padding: 5px 5px;
     text-decoration: none;
     width: 25%;
 }
@@ -96,7 +101,7 @@ ul {
     text-align: center;
     background-color: cornflowerblue;
     padding: 3px;
-    margin: 0px 250px;
+    margin: 0px 15%;
 }
 aside {
     float: right;
@@ -115,4 +120,8 @@ figcaption {
     background-color: cornflowerblue;
     padding: 3px;
     margin: 0px 25%;
+}
+
+footer {
+    background-color: cornflowerblue;
 }
